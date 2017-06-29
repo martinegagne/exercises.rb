@@ -22,3 +22,40 @@ friends.each do |k, v|
     puts "#{k} is old."
   end
 end
+
+#exercise_5_part_3
+colours = ["red", "blue", "green", "teal", "orange"]
+
+puts colours.pop(2)
+
+#exercise_5_part_4
+friends = {
+  :Matt => 33,
+  :Cayllan => 26,
+  :Jamieson => 25,
+  :Gabi => 24
+}
+
+friends.each do |k,v|
+  friends[k] = v +1
+end
+
+p friends
+# older_friends = friends.map do |k,v|
+#   v + 1
+# end
+#
+# p older_friends
+# p friends
+#
+#  friends.map! do |k,v|
+#   v + 1
+# end
+#
+# p friends
+
+#exercise_5_part_5
+colours = ["red", "blue", "green", "teal", "orange"]
+colours += ["pink", "yellow"]
+
+puts colours
