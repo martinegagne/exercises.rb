@@ -8,7 +8,7 @@ cities = {
   :Hiltons => 1500,
   :Ashville => 87882
   }
-puts cities[:Glasgow] = 598830
+puts cities[:Glasgow] => 598830
 
 #Exercise_2_pt_3#
 coin = ["heads", "tails", "tails", "heads", "heads"]

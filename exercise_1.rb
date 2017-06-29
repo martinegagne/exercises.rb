@@ -16,9 +16,9 @@ age = [26, 33, 25, 20, 29] << 0
 
 #Exercise_1_pt_5#
 movie = {
- :bladerunner => 1982,
- :dreamers => 2003,
- :amelie => 2001
+ :"Bladerunner" => 1982,
+ :"Dreamers" => 2003,
+ :"Amelie" => 2001
 }
 
-p movie[:bladerunner]
+p movie[:"Bladerunner"]

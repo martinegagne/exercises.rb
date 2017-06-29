@@ -4,9 +4,9 @@ artists = ["Springsteen", "Rundgren", "Broken Tambourine" ]
 
   #Exercise_3_pt_2#
   movie = {
-    :bladerunner => 1982,
-    :dreamers => 2003,
-    :amelie => 2001
+    :"Bladerunner" => 1982,
+    :"Dreamers" => 2003,
+    :"Amelie" => 2001
   }
 movie.each do |movie, name|
   puts "#{movie} came out in #{name}."
@@ -15,3 +15,12 @@ end
 #Exercise_3_pt_3#
 age = [26, 33, 25, 20, 29]
   puts age.sort.reverse
+
+#Exercise_3_pt_4#
+movies = {
+  :"Bladerunner" => 1982,
+  :"Dreamers" => 2003,
+  :"Amelie" => 2001,
+}
+   movies[:"Beauty and the Beast"] = 1991, 2017
+  puts movies

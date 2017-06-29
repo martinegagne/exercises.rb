@@ -13,9 +13,9 @@ words = {
 }
 
 movie = {
-  :bladerunner => 1982,
-  :dreamers => 2003,
-  :amelie => 2001
+ :"Bladerunner" => 1982,
+ :"Dreamers" => 2003,
+ :"Amelie" => 2001
 }
 
 cities = {
