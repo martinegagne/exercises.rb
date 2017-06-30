@@ -31,3 +31,15 @@ numbers_count = (1..50).to_a
 p numbers_count.cycle(3) {|x| puts x}
 
 #exercise_6.3_pt_6
+countries = [
+    {:name=>"Scotland", :continent=>"Europe", :island=>"Not an Island"},
+    {:name=>"Finland", :continent=>"Europe", :island=>"Not an Island"},
+    {:name=>"Cuba", :continent=>"North America", :island=>"Island" }
+  ]
+
+no_island = []
+  no_island = countries.select do |country|
+    country[:island] == "Not an Island"
+  end
+
+puts no_island
